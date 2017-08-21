@@ -1,0 +1,150 @@
+body {
+  background-color: #2e363f;
+}
+.g-wrap {
+  width: 100%;
+  height: auto;
+  background-color: #2e363f;
+  overflow: hidden;
+}
+.g-hd {
+  height: 60px;
+  width: 100%;
+  background-color: #2e363f;
+  border-bottom: 1px solid #000;
+}
+.m-nav {
+  height: 60px;
+  float: left;
+}
+.m-nav li,
+.m-nav li a {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: #939da8;
+}
+.m-nav li {
+  padding: 0 5px;
+}
+.m-nav li.logo,
+.m-nav li.logo a {
+  width: 200px;
+  color: #fff;
+  font-family: Lobster;
+  font-size: 24px;
+}
+.glyphicon-off {
+  float: right;
+  margin: 24px 20px;
+  color: #fff;
+}
+.g-sd {
+  float: left;
+  width: 200px;
+}
+.g-sd li.header {
+  height: 40px;
+  line-height: 40px;
+  color: #4b646f;
+  background: #1a2226;
+  font-size: 12px;
+  padding-left: 30px;
+}
+.g-sd li a {
+  height: 40px;
+  line-height: 40px;
+  color: #939da8;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  display: block;
+  padding-left: 30px;
+}
+.g-sd li > a.z-crt,
+.g-sd li > a:hover {
+  background-color: #27a9e3;
+  color: #fff;
+}
+.g-sd .g-ssd li a {
+  background-color: #1e242b;
+  border-bottom: none;
+}
+.g-sd .g-ssd li a:hover {
+  color: #fff;
+}
+.g-ssd {
+  display: none;
+}
+.g-mn {
+  width: 100%;
+  margin-left: -200px;
+  float: right;
+}
+.g-mnc {
+  margin-left: 200px;
+  background-color: #eee;
+}
+.g-mnc p {
+  padding: 15px;
+  font-size: 14px;
+}
+.g-mnc p span {
+  font-weight: 600;
+}
+.g-mnc img {
+  height: 100px;
+  width: 100px;
+  margin-left: 15px;
+}
+.data-list {
+  padding-top: 30px;
+  overflow: hidden;
+}
+.data-list ul li {
+  float: left;
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.data-list ul li a {
+  padding: 20px;
+  display: inline-block;
+  background-color: #27a9e3;
+  color: #fff;
+  font-size: 14px;
+}
+.data-list ul li a span {
+  font-size: 24px;
+}
+.data-list ul li a i.label {
+  position: absolute;
+  top: -8px;
+  right: -6px;
+}
+.data-list ul li a:hover {
+  background-color: #2e363f;
+}
+.data-list ul li.bg-praise a {
+  background-color: #28b779;
+}
+.data-list ul li.bg-praise a:hover {
+  background-color: #2e363f;
+}
+.data-list ul li.bg-article a {
+  background-color: #ffb848;
+}
+.data-list ul li.bg-article a:hover {
+  background-color: #2e363f;
+}
+.data-list ul li.bg-sort a {
+  background-color: #da542e;
+}
+.data-list ul li.bg-sort a:hover {
+  background-color: #2e363f;
+}
+.widget-box {
+  margin: 16px 0;
+}
